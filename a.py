@@ -87,7 +87,11 @@ class Main:
 
 		except Exception as e:
 			print(e)
+count = 0
 
+while (count < 3):    
+
+    count = count + 1
 if __name__ == "__main__":
 	main = Main()
 	main.creator()
