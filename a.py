@@ -7,7 +7,7 @@ import string
 
 import os
 import time
-def main(): 
+ 
 script_version = "1.0"
 script_title   = "Spotify Account Creator By Sh1vxng"
 script_info    = f'''
@@ -24,6 +24,7 @@ script_info    = f'''
  [-] Telegram : https://t.me/livinghumanoid
  --------
 '''
+def main():
 class Main:
 
 	def clear(self, text):
