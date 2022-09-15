@@ -6,11 +6,7 @@ import string
 
 import os
 import time
-count = 0
 
-while (count < 3):    
-
-    count = count + 1
 script_version = "1.0"
 script_title   = "Spotify Account Creator By Sh1vxng"
 script_info    = f'''
@@ -60,7 +56,11 @@ class Main:
 		credentails['email']       = self.email+"@dripplay.tk"
 
 		return credentails
+count = 0
 
+while (count < 3):    
+
+    count = count + 1
 	def creator(self):
 		try:
 			session = requests.Session()
