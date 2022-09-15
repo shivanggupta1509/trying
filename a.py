@@ -24,7 +24,8 @@ script_info    = f'''
  [-] Telegram : https://t.me/livinghumanoid
  --------
 '''
-def main():
+
+
 class Main:
 
 	def clear(self, text):
