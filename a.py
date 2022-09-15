@@ -1,3 +1,8 @@
+count = 0
+
+while (count < 3):    
+
+    count = count + 1
 import requests
 import json
 
@@ -92,8 +97,4 @@ class Main:
 if __name__ == "__main__":
 	main = Main()
 	main.creator()
-count = 0
 
-while (count < 3):    
-
-    count = count + 1
