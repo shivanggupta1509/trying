@@ -55,12 +55,8 @@ class Main:
 		credentails['username']    = username
 		credentails['email']       = self.email+"@dripplay.tk"
 
-		return credentails
-count = 0
+		return credentails 
 
-while (count < 3):    
-
-    count = count + 1
 	def creator(self):
 		try:
 			session = requests.Session()
@@ -96,3 +92,8 @@ while (count < 3):
 if __name__ == "__main__":
 	main = Main()
 	main.creator()
+count = 0
+
+while (count < 3):    
+
+    count = count + 1
