@@ -7,7 +7,7 @@ import string
 
 import os
 import time
-
+def main(): 
 script_version = "1.0"
 script_title   = "Spotify Account Creator By Sh1vxng"
 script_info    = f'''
@@ -93,4 +93,9 @@ class Main:
 if __name__ == "__main__":
 	main = Main()
 	main.creator()
-
+	repeat = input("repeat?")
+	if repeat == "y":
+		main()
+	else:
+		exit()
+main()
