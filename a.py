@@ -1,4 +1,3 @@
-def main():
 import requests
 import json
 
@@ -92,9 +91,6 @@ class Main:
 		except Exception as e:
 			print(e)
 
-if __name__ == "__main__":
-	main = Main()
-	main.creator()
 	repeat = input("repeat?")
 	if repeat == "y":
 		main()
